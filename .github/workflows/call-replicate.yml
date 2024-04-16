@@ -1,4 +1,4 @@
-name: Call API every two minutes
+name: Call API every two minutes 1
 
 on:
   push:
