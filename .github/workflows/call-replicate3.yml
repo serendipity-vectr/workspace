@@ -15,6 +15,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Wait for 4 minutes
+        run: sleep 240
+      
       - name: Call API
         run: |
           curl -s -X POST \
